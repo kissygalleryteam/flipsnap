@@ -1,0 +1,15 @@
+{
+    "name": "flipsnap",
+    "comName":"Flipsnap",
+    "version": "1.0",
+    "desc": "",
+    "tag":"mobile",
+    "githubName":"jayli",
+    "author": {
+        "name": "拔赤",
+        "email": "bachi@taobao.com",
+        "page": ""
+    },
+    "type": "kissy-gallery",
+    "type-url": "http://gallery.kissyui.com/guide"
+}

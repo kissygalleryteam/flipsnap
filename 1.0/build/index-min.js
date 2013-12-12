@@ -1,0 +1,2 @@
+/*!build time : 2013-12-12 3:17:39 PM*/
+KISSY.add("gallery/flipsnap/1.0/index",function(a,b,c){function d(a){var b=this;d.superclass.constructor.call(b,a)}b.all;return a.extend(d,c,{},{ATTRS:{}}),d},{requires:["node","base"]});

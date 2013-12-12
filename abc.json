@@ -2,7 +2,7 @@
     "name": "flipsnap",
     "comName":"Flipsnap",
     "version": "1.0",
-    "desc": "",
+    "desc": "Flipsnap的KISSY版本，依赖jquery，慎用",
     "tag":"mobile",
     "githubName":"jayli",
     "author": {

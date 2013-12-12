@@ -41,7 +41,7 @@ function log(str){
 	<h2>用法</h2>
 	<p>
 <pre>
-KISSY.use('gallery/flipsnap/1.9/',function(S,FlipSnap){
+KISSY.use('gallery/flipsnap/1.0/',function(S,FlipSnap){
 	FlipSnap('.flipsnap');	
 });
 </pre>
@@ -58,12 +58,12 @@ KISSY.use('gallery/flipsnap/1.9/',function(S,FlipSnap){
 		</div>
 		<div class="sample">
 			<pre class="language-javascript"><code>
-			KISSY.use('mobile/flipsnap/',function(S,Flipsnap){
+			KISSY.use('gallery/flipsnap/1.0/',function(S,Flipsnap){
 				Flipsnap('.flipsnap');	
 			});
 </code></pre>
 		<script>
-			KISSY.use('mobile/flipsnap/',function(S,Flipsnap){
+			KISSY.use('gallery/flipsnap/1.0/',function(S,Flipsnap){
 				Flipsnap('.fp1');	
 			});
 		</script>
@@ -81,13 +81,13 @@ KISSY.use('gallery/flipsnap/1.9/',function(S,FlipSnap){
 		</div>
 		<div class="sample">
 			<pre class="language-javascript"><code>
-			KISSY.use('mobile/flipsnap/',function(S,Flipsnap){
+			KISSY.use('gallery/flipsnap/1.0/',function(S,Flipsnap){
 				Flipsnap('.flipsnap');	
 			});
 </code></pre>
 		</div>
 		<script>
-			KISSY.use('mobile/flipsnap/',function(S,Flipsnap){
+			KISSY.use('gallery/flipsnap/1.0/',function(S,Flipsnap){
 				Flipsnap('.fp2');	
 			});
 		</script>
@@ -110,7 +110,7 @@ KISSY.use('gallery/flipsnap/1.9/',function(S,FlipSnap){
     distance: 230
 });</code></pre>
 		<script>
-			KISSY.use('mobile/flipsnap/',function(S,Flipsnap){
+			KISSY.use('gallery/flipsnap/1.0/',function(S,Flipsnap){
 				Flipsnap('.fp3',{
 					distance:230
 				});	
@@ -142,7 +142,7 @@ KISSY.use('gallery/flipsnap/1.9/',function(S,FlipSnap){
     maxPoint: 3    // move able 3 times
 });</code></pre>
 		<script>
-			KISSY.use('mobile/flipsnap/',function(S,Flipsnap){
+			KISSY.use('gallery/flipsnap/1.0/',function(S,Flipsnap){
 				Flipsnap('.fp4',{
 					distance: 160, // 80px * 2
 					maxPoint: 3    // move able 3 times
@@ -170,7 +170,7 @@ KISSY.use('gallery/flipsnap/1.9/',function(S,FlipSnap){
     transitionDuration: 1000
 });</code></pre>
 		<script>
-			KISSY.use('mobile/flipsnap/',function(S,Flipsnap){
+			KISSY.use('gallery/flipsnap/1.0/',function(S,Flipsnap){
 				Flipsnap('.fp5',{
 					distance: 230,
 					transitionDuration: 1000
@@ -209,7 +209,7 @@ flipsnap.element.addEventListener('fspointmove', function() {
     $pointer.eq(flipsnap.currentPoint).addClass('current');
 }, false);</code></pre>
 		<script>
-			KISSY.use('mobile/flipsnap/',function(S,Flipsnap){
+			KISSY.use('gallery/flipsnap/1.0/',function(S,Flipsnap){
 				var flipsnap = Flipsnap('.fp6',{
 					distance: 230
 				});	
@@ -261,7 +261,7 @@ $(".remove").click(function() {
     flipsnap.refresh();
 });</code></pre>
 		<script>
-			KISSY.use('mobile/flipsnap/',function(S,Flipsnap){
+			KISSY.use('gallery/flipsnap/1.0/',function(S,Flipsnap){
 				var $ = jQuery;
 				var $flipsnap = $('.fp7');
 				var distance = 230;
@@ -320,7 +320,7 @@ $a.eq(2).click(function(e) {
     alert("clicked and link to index");
 });</code></pre>
 <script>
-			KISSY.use('mobile/flipsnap/',function(S,Flipsnap){
+			KISSY.use('gallery/flipsnap/1.0/',function(S,Flipsnap){
 				var $ = jQuery;
 				Flipsnap('.fp8', {
 					distance: 230
@@ -371,7 +371,7 @@ flipsnap.element.addEventListener('fspointmove', function() {
     $prev.attr('disabled', !flipsnap.hasPrev());
 }, false);</code></pre>
 <script>
-			KISSY.use('mobile/flipsnap/',function(S,Flipsnap){
+			KISSY.use('gallery/flipsnap/1.0/',function(S,Flipsnap){
 				var $ = jQuery;
 				var flipsnap = Flipsnap('.fp9', {
 					distance: 230
@@ -421,7 +421,7 @@ $('button.go').click(function() {
     flipsnap.moveToPoint($num.val() - 1);
 });</code></pre>
 <script>
-			KISSY.use('mobile/flipsnap/',function(S,Flipsnap){
+			KISSY.use('gallery/flipsnap/1.0/',function(S,Flipsnap){
 				var $ = jQuery;
 				var flipsnap = Flipsnap('.fp10', {
 					distance: 230

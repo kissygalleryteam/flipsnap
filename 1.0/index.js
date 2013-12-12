@@ -578,5 +578,5 @@ window.Flipsnap = Flipsnap;
 KISSY.add(function(S){
 	return window.Flipsnap;
 },{
-	requires:['gallery/jquery/1.9/']
+	requires:['gallery/jquery-adapter/1.0/']
 });
